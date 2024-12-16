@@ -1,0 +1,19 @@
+{
+    "name": "akifaykan/task",
+    "autoload": {
+        "psr-4": {
+            "Core\\": "src/Core/",
+            "Infrastructure\\": "src/Infrastructure/",
+            "Application\\": "src/Application/"
+        }
+    },
+    "authors": [
+        {
+            "name": "AkifAykan",
+            "email": "akifaykan@hotmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
